@@ -1,0 +1,9 @@
+.navbar {
+    background-color: #282c34 !important
+}
+
+.icon_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
