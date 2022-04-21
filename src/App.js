@@ -93,7 +93,7 @@ function App() {
       <NavBar />
       <header className="App-header">
         <h3><Typography variant="h4" className="app_blurb">Identify the RGB colors in your stream</Typography></h3>
-        <video alt="streamwindow" className="stream_window" ref={videoRef}></video>
+        <video alt="streamwindow" className="stream_window" ref={videoRef} playsInline ></video>
         <canvas className="imageCanvas" ref={photoRef}></canvas>
         <br />
         <Button className="identify_button" onClick={getColors} variant="contained" startIcon={<ColorLensIcon />}>Identify Colors</Button>
